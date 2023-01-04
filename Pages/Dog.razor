@@ -1,0 +1,82 @@
+﻿@page "/dog"
+@inject HttpClient Http
+@using Microsoft.Extensions.Configuration;
+@using Models
+@inject IConfiguration Configuration
+
+<PageTitle>Dogs</PageTitle>
+
+@if (allPosts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-4 mx-auto">
+            <div class="text-center mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Strapi Dog Blazor Page</h1>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Jag är en text</p>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+                </div>
+            </div>
+            <div class="flex flex-wrap -m-3">
+                @foreach (var post in allPosts.data)
+                {
+
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="bg-gray-100 p-6 rounded-lg">
+
+                            <div class="catContainer">
+                                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">@post.name</h2>
+                                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">@post.age</h2>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <style>
+        h2 {
+            font-style: italic;
+            text-shadow: 2px 2px 2px gray;
+        }
+
+        .catContainer {
+            border: solid 3px black;
+            padding: 15px;
+            margin: auto;
+            background-color: lightgrey;
+            border-radius: 4px;
+            box-shadow: 2px 5px;
+        }
+    </style>
+}
+
+
+@code {
+    private PostList allPosts = null;
+    public string strapi_api_url;
+
+    protected override async Task OnInitializedAsync()
+    {
+        strapi_api_url = Configuration["AppSettings:STRAPI_API_URL"];
+        var url = "{STRAPI_API_URL}/api/dogs?populate=*";
+        allPosts = await Http.GetFromJsonAsync<PostList>(url.Replace("{STRAPI_API_URL}", strapi_api_url));
+    }
+
+    public class Post
+    {
+        public int Id { get; set; }
+        public string name { get; set; }
+        public int age { get; set; }
+    }
+
+    public class PostList
+    {
+        public List<Post> data { get; set; }
+    }
+
+}
