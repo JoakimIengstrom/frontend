@@ -1,10 +1,10 @@
-﻿@* ./Pages/Index.razor *@
-
-@page "/"
+﻿@page "/"
 @inject HttpClient Http
 @using Microsoft.Extensions.Configuration;
 @using Models
 @inject IConfiguration Configuration
+
+<PageTitle>Cats</PageTitle>
 
 @if (allPosts == null)
 {
@@ -16,15 +16,10 @@ else
         <div class="container px-5 py-4 mx-auto">
             <div class="text-center mb-20">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Strapi Cat Blazor Page</h1>
-                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Jag är en text</p>
-                <div class="flex mt-6 justify-center">
-                    <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
-                </div>
             </div>
             <div class="flex flex-wrap -m-3">
                 @foreach (var post in allPosts.data)
                 {
-
                     <div class="xl:w-1/4 md:w-1/2 p-4">
                         <div class="bg-gray-100 p-6 rounded-lg">
                             <div class="catContainer">
@@ -36,6 +31,11 @@ else
                     </div>
                 }
             </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam metus eu dictum ullamcorper. Aenean
+                facilisis turpis a ultricies ornare. Nunc a scelerisque quam. Proin laoreet neque nec nibh ultricies, vel
+                vehicula lorem cursus. Donec velit nunc, pulvinar et consectetur vel, convallis eleifend neque. Vestibulum
+                sit amet ex erat. Sed quis lacus eu diam lobortis porttitor nec id quam. In ut velit eu orci ullamcorper
+                fermentum vel in massa. Donec molestie leo ac erat efficitur, quis fringilla augue fringilla.</p>
         </div>
     </section>
     <style>
@@ -55,7 +55,6 @@ else
     </style>
 }
 
-
 @code {
     private PostList allPosts = null;
     public string strapi_api_url;
@@ -74,10 +73,8 @@ else
         public int age { get; set; }
     }
 
-
     public class PostList
     {
         public List<Post> data { get; set; }
     }
-
 }

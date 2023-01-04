@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = frontend
 build_property.RootNamespace = frontend
-build_property.ProjectDir = c:\Users\joaki\source\repos\CMS\Strapi\frontend\
+build_property.ProjectDir = C:\Users\joaki\source\repos\CMS\Strapi\frontend\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\joaki\source\repos\CMS\Strapi\frontend
+build_property.MSBuildProjectDirectory = C:\Users\joaki\source\repos\CMS\Strapi\frontend
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/joaki/source/repos/CMS/Strapi/frontend/App.razor]
+[C:/Users/joaki/source/repos/CMS/Strapi/frontend/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/joaki/source/repos/CMS/Strapi/frontend/Pages/Dog.razor]
+[C:/Users/joaki/source/repos/CMS/Strapi/frontend/Pages/Dog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/joaki/source/repos/CMS/Strapi/frontend/Pages/Index.razor]
+[C:/Users/joaki/source/repos/CMS/Strapi/frontend/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/joaki/source/repos/CMS/Strapi/frontend/_Imports.razor]
+[C:/Users/joaki/source/repos/CMS/Strapi/frontend/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/joaki/source/repos/CMS/Strapi/frontend/Shared/MainLayout.razor]
+[C:/Users/joaki/source/repos/CMS/Strapi/frontend/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-8whw3tcjxp
 
-[c:/Users/joaki/source/repos/CMS/Strapi/frontend/Shared/NavMenu.razor]
+[C:/Users/joaki/source/repos/CMS/Strapi/frontend/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-szpj9ab99e
