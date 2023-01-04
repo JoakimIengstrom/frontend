@@ -41,59 +41,6 @@
         }
       },
       {
-        "HashCode": 1895402532,
-        "Kind": "Components.Component",
-        "Name": "frontend.Shared.SurveyPrompt",
-        "AssemblyName": "frontend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontend.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 987303955,
-        "Kind": "Components.Component",
-        "Name": "frontend.Shared.SurveyPrompt",
-        "AssemblyName": "frontend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "frontend.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontend.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1224452760,
         "Kind": "Components.Component",
         "Name": "frontend.Shared.MainLayout",
@@ -223,35 +170,35 @@
         }
       },
       {
-        "HashCode": -182225960,
+        "HashCode": 2005763088,
         "Kind": "Components.Component",
-        "Name": "frontend.Pages.FetchData",
+        "Name": "frontend.Pages.Dog",
         "AssemblyName": "frontend",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "Dog"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontend.Pages.FetchData"
+          "Common.TypeName": "frontend.Pages.Dog"
         }
       },
       {
-        "HashCode": 1189617354,
+        "HashCode": 1738175431,
         "Kind": "Components.Component",
-        "Name": "frontend.Pages.FetchData",
+        "Name": "frontend.Pages.Dog",
         "AssemblyName": "frontend",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "frontend.Pages.FetchData"
+            "TagName": "frontend.Pages.Dog"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontend.Pages.FetchData",
+          "Common.TypeName": "frontend.Pages.Dog",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -285,39 +232,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "frontend.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 2005763088,
-        "Kind": "Components.Component",
-        "Name": "frontend.Pages.Dog",
-        "AssemblyName": "frontend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Dog"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontend.Pages.Dog"
-        }
-      },
-      {
-        "HashCode": 1738175431,
-        "Kind": "Components.Component",
-        "Name": "frontend.Pages.Dog",
-        "AssemblyName": "frontend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "frontend.Pages.Dog"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "frontend.Pages.Dog",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13906,11 +13820,6 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\joaki\\source\\repos\\CMS\\Strapi\\frontend\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "c:\\Users\\joaki\\source\\repos\\CMS\\Strapi\\frontend\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
@@ -13924,11 +13833,6 @@
       "FilePath": "c:\\Users\\joaki\\source\\repos\\CMS\\Strapi\\frontend\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\joaki\\source\\repos\\CMS\\Strapi\\frontend\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\joaki\\source\\repos\\CMS\\Strapi\\frontend\\App.razor",
